@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#555555</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#888888</color>
+    <color name="gray_outlook">#AAAAAA</color>
+    <color name="green_intheme">#77FF00</color>
+    <color name="blue_intheme">#00AAFF</color>
+    <color name="dblue_intheme">#0099FF</color>
+    <color name="blue">#0000FF</color>
+
+
+    <color name="white">#FFFFFF</color>
+</resources>

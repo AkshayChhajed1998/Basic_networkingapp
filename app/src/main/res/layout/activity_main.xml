@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Email"
+        android:text="LOGIN"
+        android:textColor="@color/green_intheme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="textWebEmailAddress"
+        android:layout_centerVertical="true"
+        android:layout_above="@id/Password"
+        android:background="@color/gray_outlook"
+        android:layout_marginBottom="10dp"
+        android:hint="Email"/>
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="textWebPassword"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray_outlook"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/SignIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign IN"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Password"
+        android:background="@color/blue_intheme"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:onClick="SignIN"
+        android:clickable="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Basic</string>
+    <string name="domain_name">https://attendence-system-akshay-chhajed.c9users.io</string>
+    <string name="Login">/api/login/</string>
+    <string name="Logout">/api/logout/</string>
+</resources>
